@@ -1,6 +1,3 @@
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    HTML DOCUMENT-->CSS FILE --> JS  ;

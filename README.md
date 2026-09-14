@@ -1,1 +1,6 @@
-# 0.4-uusi-muistiinpano
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;

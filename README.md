@@ -1,5 +1,3 @@
 graph TD;
-    A --> B;
-    A --> C;
-    B --> D;
-    C --> D;
+    html["HTML DOCUMENT"] --> css["CSS FILE"];
+    css --> js["JS"];

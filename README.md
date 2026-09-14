@@ -5,5 +5,5 @@ graph TD;
     js --> btn["Odotetaan painikkeen painallusta"];
     btn --> send["Palvelin: tallentaa uuden muistiinpanon ja ohjaa takaisin."];
     send --> server1["Selain: pyytää sivun, CSS:n, JS:n ja datan uudelleen"];
-    send --> new_save["JS näyttää päivitetyn muistiinpanoluettelon näytöllä, mukaan lukien uuden muistiinpanon"]
+    server1 --> new_save["JS näyttää päivitetyn muistiinpanoluettelon näytöllä, mukaan lukien uuden muistiinpanon"]
     
